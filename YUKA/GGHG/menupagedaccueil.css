@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+:root {
+  --bs-primary-rgb: 245, 116, 41;
+  --bs-success-rgb: 54, 126, 24;
+  --bs-danger-rgb: 249, 151, 93;
+}
+
+.titre {
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+.carotte {
+  display: flex;
+  margin: auto;
+}

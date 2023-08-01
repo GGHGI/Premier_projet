@@ -1,0 +1,14 @@
+get  https://fr.openfoodfacts.org/cgi/search.pl?action=process&tagtype_0=categories&tag_contains_0=contains&tag_0=breakfast_cereals&tagtype_1=nutrition_grades&tag_contains_1=contains&tag_1=A&additives=without&ingredients_from_palm_oil=without&json=1 HTTP/1.1
+
+Accept-Language: Fr
+Content-Type: application/json
+
+###
+
+get  https://world.openfoodfacts.org/api/v2/product/3083681094923.json HTTP/1.1
+
+###
+
+
+
+get https://world.openfoodfacts.org/api/v2/product/${recherche}.json?fields=generic_name,nutriments,additives,downgraded,aggregated_origins,adjustments,packaging_fr,additives_tags,production_system,ecoscore_data,manufacturing_places,image_front_url,agribalyse,packaging_tags,packaging_text_fr HTTP/1.1
